@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  text-transform: capitalize;
+  font-weight: 500;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}

@@ -1,0 +1,403 @@
+/* section one */
+.headerSection {
+  position: relative;
+}
+.headerSecBgImg {
+  position: absolute;
+  inset: 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -10;
+}
+.headerSecConBox {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+  padding: 8rem 1.25rem;
+}
+.headerSecContent {
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48rem;
+}
+.headerSecContent h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-transform: none;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+.headerSecContent p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  max-width: 528px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  text-transform: none;
+  color: rgb(75 85 99);
+}
+.getStartBtn {
+  display: inline-block;
+  border-radius: 9999px;
+  color: black;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  background-color: rgb(250 204 21);
+}
+
+/* section Two  */
+
+.aboutConBox {
+  padding-top: 4rem;
+}
+.aboutContent {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.aboutContent h1 {
+  margin: 0;
+  margin-top: 1.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 1.25;
+  font-weight: 700;
+  color: rgb(248 250 252);
+}
+.aboutConPartnes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0px, 1fr));
+}
+
+.partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutConBox p {
+  margin: 2.5rem auto 0;
+  width: 9rem;
+  border-radius: 9999px;
+  border: 1px solid rgb(0 0 0);
+  background-color: rgb(201 253 2);
+  padding: 0.25rem 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgb(0 0 0);
+  font-weight: 400;
+  text-transform: none;
+}
+
+/* section three */
+.sectionThree {
+  padding: 2.5rem 0;
+}
+.benifitsSecConBox {
+  padding: 0 1rem;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.benifitsHeader {
+  text-align: center;
+  max-width: 36rem;
+  margin: 0 auto;
+}
+.benifitsHeader p {
+  margin: 0;
+  color: rgb(125 211 252);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  letter-spacing: 0.1em;
+}
+.benifitsHeader h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-transform: none;
+  line-height: 1.25em;
+  margin: 0;
+  margin-top: 1.5rem;
+  color: rgb(248 250 252);
+}
+.benifitsContent {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0px, 1fr));
+  gap: 2.5rem 1rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+.benifits {
+  display: flex;
+  align-items: flex-start;
+}
+.benifits img {
+  width: 2.25rem;
+  max-width: 100%;
+  height: auto;
+}
+.benifits div {
+  margin-left: 1.25rem;
+}
+.benifits h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: rgb(248 250 252);
+}
+.benifits p {
+  margin-bottom: 0;
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-transform: none;
+  color: rgb(203 213 225);
+}
+.benifitsDashboard img {
+  max-width: 100%;
+}
+
+/* Section Four */
+.counterSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8rem;
+}
+.counterConBox {
+  max-width: 80rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.counterContent {
+  padding-top: 0px;
+}
+.counterHeading h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  margin-top: 1.5rem;
+  color: rgb(22 163 74);
+  text-transform: none;
+}
+.counterHeadp1,
+.counterHeadp2 {
+  margin: 0;
+}
+.counterHeadp2 {
+  font-size: 1.875rem;
+  line-height: 1.25;
+  font-weight: 700;
+  color: rgb(220 38 38);
+}
+.counterHeadSpan {
+  font-size: 1.875rem;
+  line-height: 1.25;
+  font-weight: 700;
+  color: rgb(14 165 233);
+}
+.counterConSec {
+  margin-top: 4rem;
+}
+.countersDesc {
+  margin: 0;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-top: 2.75rem;
+  color: rgb(243 244 246);
+}
+.countBox {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  gap: 1.5rem;
+}
+.count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.countTitle {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  margin-bottom: 0.75rem;
+  padding: 0.125rem 0.75rem;
+  width: fit-content;
+
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  background-color: rgb(201 253 2);
+  color: rgb(0 0 0);
+}
+.nfc {
+  margin: 0;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  .aboutConPartnes {
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+  }
+
+  .sectionThree {
+    padding: 4rem 0;
+  }
+  .benifitsSecConBox {
+    padding: 0 1.5rem;
+  }
+  .benifitsHeader h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .benifitsContent {
+    margin-top: 5rem;
+  }
+  .counterConBox {
+    padding: 0 1.5rem;
+  }
+  .counterHeading {
+    text-align: center;
+  }
+  .counterHeading h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .counterHeadp1 {
+    display: block;
+  }
+  .counterHeadp2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .counterConSec {
+    margin-top: 6rem;
+  }
+  .countersDesc {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .count div {
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .headerSecConBox {
+    padding: 10rem 2.5rem;
+  }
+  .headerSecContent h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+  .aboutContent {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .aboutConPartnes {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+  }
+  .counterHeading {
+    margin: 0 auto;
+    max-width: 42rem;
+  }
+  .counterHeadSpan {
+    display: block;
+  }
+  .counterHeadp2 {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .headerSecConBox {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  .aboutContent {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+  .aboutConPartnes {
+    display: grid;
+  }
+  .sectionThree {
+    padding: 6rem 0;
+  }
+  .benifitsSecConBox {
+    padding: 0 2rem;
+  }
+  .benifitsHeader h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .benifitsDetails {
+    grid-column: span 2 / span 2;
+    padding-right: 4rem;
+  }
+
+  .benifitsContent {
+    grid-template-columns: repeat(5, minmax(0px, 1fr));
+  }
+  .benifitsDashboard {
+    grid-column: span 3 / span 3;
+  }
+  .counterConBox {
+    padding: 0 2rem;
+  }
+  .counterContent {
+    padding-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0px, 1fr));
+    gap: 2rem;
+  }
+  .counterHeading {
+    display: flex;
+    align-items: center;
+    grid-column: span 6 / span 6;
+    text-align: left;
+  }
+
+  .counterHeading h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .counterHeadSpan {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .counterHeadp2 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .counterConSec {
+    margin-top: 0;
+    grid-column: span 5 / span 5;
+  }
+  .countersDesc {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+}
